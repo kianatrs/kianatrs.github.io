@@ -524,6 +524,7 @@ mark,
   grid-template-columns: 45% 45%;
   grid-column-gap: 10%;
   grid-template-rows: auto;
+  grid-row-gap: 2rem;
   grid-template-areas:
     "one two"
     "three four";
