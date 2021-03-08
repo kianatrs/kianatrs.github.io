@@ -1958,6 +1958,19 @@ pre code {
   .table-responsive-md > .table-bordered {
     border: 0;
   }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 0;
+    grid-template-rows: auto;
+    grid-row-gap: 2rem;
+    grid-template-areas:
+    "one"
+    "two"
+    "three"
+    "four";
+  }
 }
 @media (max-width: 991.98px) {
   .table-responsive-lg {
