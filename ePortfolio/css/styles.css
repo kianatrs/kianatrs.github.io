@@ -4472,7 +4472,7 @@ input[type=button].btn-block {
     margin-left: -0.75rem;
   }
   .card-deck .card {
-    flex: 1 0 0%;
+    flex: 1 0 0;
     margin-right: 0.75rem;
     margin-bottom: 0;
     margin-left: 0.75rem;
@@ -4488,7 +4488,7 @@ input[type=button].btn-block {
     flex-flow: row wrap;
   }
   .card-group > .card {
-    flex: 1 0 0%;
+    flex: 1 0 0;
     margin-bottom: 0;
   }
   .card-group > .card + .card {
@@ -10084,6 +10084,10 @@ p.lead {
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
+
+  .iframe {
+    width: 5rem;
+  }
 }
 .social-icons .social-icon {
   display: inline-flex;
@@ -10108,8 +10112,8 @@ p.lead {
 
 video {
   padding-top: 3rem;
-  width: 50rem;
-  height: auto;
+  width: 80% !important;
+  height: auto !important;
 }
 
 .proj_img {
